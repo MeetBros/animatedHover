@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  margin: 20px;
+  padding: 24px;
+  width: 220px;
+  font-family: monospace, sans-serif;
+  text-transform: uppercase;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+}
+
+.btn1 {
+  background-image: linear-gradient(to left, #ffef12, #007500, #ff1212);
+}
+.btn2 {
+  background-image: linear-gradient(to left, #12ff12, #ff1212, #007500);
+}
+
+.btn3 {
+  background-image: linear-gradient(to left, #12ff12, #6e0072, #1612ff);
+}
+.btn4 {
+  background-image: linear-gradient(to left, #12ffa4, #058f00, #f712ff);
+}
+.btn5 {
+  background-image: linear-gradient(to left, #ff1212, #007979, #ff1212);
+}
+.btn6 {
+  background-image: linear-gradient(to left, #12ffa4, #6e0004, #12ffa4);
+}
+
+.btn:hover {
+  background-position: right;
+  transition-delay: 0.3s;
+}
